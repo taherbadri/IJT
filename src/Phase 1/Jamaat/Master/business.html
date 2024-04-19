@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Business Master</title>
+        <link rel="stylesheet" href="../../../output.css">
+    </head>
+    <body>
+        <div class="container flex items-center justify-center min-h-screen">
+            <form action
+                class="w-[90%] md:max-w-md shadow-lg rounded-md px-4 py-6 flex flex-col items-center justify-between gap-2"
+                data-theme="light">
+                <div
+                    class="text-xl text-center capitalize mb-4 underline w-full">business
+                    type
+                    master</div>
+                <div
+                    class="input-container flex flex-col lg:flex-row lg:gap-2 w-full">
+                    <label for="business-code"
+                        class="form-control w-full capitalize lg:w-1/3">
+                        <div class="label">
+                            <span class="label-text">code</span>
+                        </div>
+                        <input type="text" name="business-code"
+                            id="business-code"
+                            class="input input-bordered input-sm w-full"
+                            required>
+                    </label>
+                    <label for="business-name"
+                        class="form-control w-full lg:w-2/3 capitalize">
+                        <div class="label">
+                            <span class="label-text">name</span>
+                        </div>
+                        <input type="text" name="business-name"
+                            id="business-name"
+                            class="input input-bordered input-sm w-full"
+                            required>
+                    </label>
+                </div>
+                <div class="overflow-x-auto w-full">
+                    <table class="table w-full shadow">
+                        <thead>
+                            <tr>
+                                <th class="capitalize">sr. no.</th>
+                                <th class="capitalize">business type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td class="capitalize">Hardware</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="form-control w-full mt-2">
+                    <button
+                        class="btn text-slate-200 bg-slate-600 capitalize">submit</button>
+                </div>
+                <div class="form-control w-full mt-4 text-center">
+                    <a href="../../../index.html" class="link">back to
+                        dashboard</a>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
