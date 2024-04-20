@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Business Master</title>
         <link rel="stylesheet" href="../../../output.css">
     </head>
+
     <body>
         <div class="container flex items-center justify-center min-h-screen">
             <form action
@@ -44,12 +46,21 @@
                             <tr>
                                 <th class="capitalize">sr. no.</th>
                                 <th class="capitalize">business type</th>
+                                <th class="capitalize">actions</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>1.</td>
                                 <td class="capitalize">Hardware</td>
+                                <td class="capitalize">
+                                    <div class="flex gap-2">
+                                        <button
+                                            class="btn btn-xs capitalize text-white btn-info">edit</button><button
+                                            class="btn btn-xs capitalize text-white btn-error">delete</button>
+                                    </div>
+                                </td>
+
                             </tr>
                         </tbody>
                     </table>
@@ -66,4 +77,5 @@
             </form>
         </div>
     </body>
+
 </html>
