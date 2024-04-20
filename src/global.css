@@ -5,3 +5,13 @@
 .dropdown-btn:hover ~ ul {
 	display: block;
 }
+
+.btn-theme-primary {
+	background-color: #02393e;
+	color: #d2d2d2;
+}
+
+.btn-theme-primary:hover {
+	background-color: #164f55;
+	color: #d2d2d2;
+}
