@@ -2161,6 +2161,11 @@ html {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#02393E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 57 62 / var(--tw-bg-opacity));
+}
+
 .fill-slate-400 {
   fill: #94a3b8;
 }
