@@ -2166,6 +2166,11 @@ html {
   background-color: rgb(2 57 62 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#164F55\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 79 85 / var(--tw-bg-opacity));
+}
+
 .fill-slate-400 {
   fill: #94a3b8;
 }
@@ -2273,6 +2278,11 @@ html {
 .hover\:bg-slate-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#02393E\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 57 62 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px) {
