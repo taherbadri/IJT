@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../../output.css">
+        <title>Yearly Takhmeem Master</title>
+    </head>
+
+    <body>
+        <div class="container flex items-center justify-center min-h-screen">
+            <form action
+                class="w-[90%] md:max-w-md shadow-lg rounded-md px-4 py-6 flex flex-col items-center justify-between gap-2"
+                data-theme="light">
+                <div
+                    class="text-xl text-center capitalize mb-4 underline w-full">Yearly
+                    takmeem
+                    master</div>
+                <div
+                    class="input-container flex flex-col lg:flex-row lg:gap-2 w-full">
+                    <label for="yearly-takmeem-code"
+                        class="form-control w-full capitalize lg:w-1/3">
+                        <div class="label">
+                            <span class="label-text">code</span>
+                        </div>
+                        <input type="text" name="yearly-takmeem-code"
+                            id="yearly-takmeem-code"
+                            class="input input-bordered input-sm w-full"
+                            required>
+                    </label>
+                    <label for="yearly-takmeem-name"
+                        class="form-control w-full lg:w-2/3 capitalize">
+                        <div class="label">
+                            <span class="label-text">name</span>
+                        </div>
+                        <input type="text" name="yearly-takmeem-name"
+                            id="yearly-takmeem-name"
+                            class="input input-bordered input-sm w-full"
+                            required>
+                    </label>
+                </div>
+                <div
+                    class="input-container flex flex-col lg:flex-row lg:gap-2 w-full">
+                    <label for="yearly-takmeem-belongsTo"
+                        class="form-control w-full capitalize">
+                        <div class="label">
+                            <span class="label-text">belongs to</span>
+                        </div>
+                        <div class="flex items-center gap-2"><select
+                                name="yearly-takmeem-belongsTo"
+                                id="yearly-takmeem-belongsTo"
+                                class="select select-bordered w-1/3 select-sm"
+                                required>
+                                <option disabled selected></option>
+                            </select>
+                            <input type="text"
+                                class="input input-bordered input-sm w-2/3"></div>
+                    </label>
+
+                </div>
+                <div class="w-full flex items-center justify-between">
+                    <label for class="label w-1/3"><span
+                            class="label-text capitalize">type</span></label>
+                    <div class="form-control">
+                        <label class="label cursor-pointer">
+                            <input type="radio" name="takhmeem-type"
+                                class="radio radio-xs" checked />
+                            <span
+                                class="label-text capitalize ml-2">yearly</span>
+                        </label>
+                    </div>
+                    <div class="form-control">
+                        <label class="label cursor-pointer">
+                            <input type="radio" name="takhmeem-type"
+                                class="radio radio-xs " checked />
+                            <span
+                                class="label-text capitalize ml-2">monthly</span>
+                        </label>
+                    </div>
+                    <div class="ml-1"> <button
+                            class="btn btn-info text-white btn-xs ml-auto"
+                            type="button
+                            ">mand</button>
+                    </div>
+                </div>
+                <div class="overflow-x-auto w-full">
+                    <table class="table w-full shadow">
+                        <thead>
+                            <tr>
+                                <th class="capitalize">sr. no.</th>
+                                <th class="capitalize">name</th>
+                                <th class="capitalize">yearly takhmeem</th>
+                                <th class="capitalize">actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td class="capitalize"></td>
+                                <td class="capitalize"></td>
+                                <td class="capitalize">
+                                    <div class="flex gap-2">
+                                        <button
+                                            class="btn btn-xs capitalize text-white btn-info">edit</button><button
+                                            class="btn btn-xs capitalize text-white btn-error">delete</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="form-control w-full mt-2">
+                    <button
+                        class="btn btn-theme-primary capitalize">submit</button>
+                </div>
+                <div class="form-control w-full mt-4 text-center">
+                    <a href="../../../index.html" class="link">back to
+                        dashboard</a>
+                </div>
+
+            </form>
+        </div>
+    </body>
+
+</html>
