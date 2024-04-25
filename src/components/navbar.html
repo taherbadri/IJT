@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navbar Component</title>
+        <link rel="stylesheet" href="../output.css">
+    </head>
+    <body>
+        <div class="drawer">
+            <input id="sidebar" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content flex flex-col">
+                <!-- Navbar -->
+                <div class="w-full navbar bg-primary">
+                    <div class="flex-none lg:hidden">
+                        <label for="sidebar" aria-label="open sidebar"
+                            class="btn btn-square btn-ghost">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24"
+                                class="inline-block w-6 h-6 stroke-current"><path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        </label>
+                    </div>
+                    <div
+                        class="mx-2 pl-2 navbar-start text-white">Jamaat
+                        App</div>
+                    <div class="hidden lg:block navbar-center">
+                        <div class="flex items-center capitalize">
+                            <a href="/"
+                                class="btn btn-ghost rounded-btn">dashboard</a>
+                            <div class="dropdown">
+                                <div tabindex="0" role="button"
+                                    class="btn btn-ghost rounded-btn">deeniyah</div>
+                                <ul
+                                    class="dropdown-content menu p-2 shadow bg-primary rounded-box w-52 mt-4">
+                                    <li><a href="#">amal report</a></li>
+                                    <li><a href="#">jagah pass</a></li>
+                                    <li><a href="#">ohbat majlis</a></li>
+                                    <li><a href="#">darees</a></li>
+                                    <li><a href="#">raza</a></li>
+                                    <li><a href="#">sharaf</a></li>
+                                    <li><a href="#">wafat update</a></li>
+                                    <li><a href="#">7 daim</a></li>
+                                    <li><a href="#">deeni shiaar</a></li>
+                                    <li><a href="#">mawaqeet deeniyah</a></li>
+                                    <li><a href="#">moharramaat</a></li>
+                                    <li><a href="#">rusumaat</a></li>
+                                    <li><a href="#">taiseer-un-nikah</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0" role="button"
+                                    class="btn btn-ghost rounded-btn">marafiq
+                                    burhaniyah</div>
+                                <ul
+                                    class="dropdown-content menu p-2 shadow bg-primary rounded-box w-52 mt-4">
+                                    <li><a href="#">amal report</a></li>
+                                    <li><a href="#">jagah pass</a></li>
+                                    <li><a href="#">ohbat majlis</a></li>
+                                    <li><a href="#">darees</a></li>
+                                    <li><a href="#">raza</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">taalimiyah</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    <li><a href="#">deeni taalim</a></li>
+                                    <li><a href="#">dunyawi education</a></li>
+                                    <li><a href="#">hifz-ul-quran</a></li>
+                                    <li><a href="#">tadrees</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">dakheliyah</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    <li><a href="#">messaging</a></li>
+                                    <li><a href="#">survey report</a></li>
+                                    <li><a href="#">attendance</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">mawarid
+                                    bashariyah</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    <li><a href="#">group / communities</a></li>
+                                    <li><a href="#">umoor mawarid
+                                            bashariyah</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">maaliyah</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    <li><a href="#">accounts</a></li>
+                                    <li><a href="#">sabeel</a></li>
+                                    <li><a href="#">accounting</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">kharejiyah</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">qaza</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    <li><a href="#">umoor qaza</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">FMB</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    <li><a href="#">FMB master</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">inventory</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">iqtesadiyah</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    <li><a href="#">qardan hasana</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">amlaak</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <div tabindex="0"
+                                    class="btn btn-ghost rounded-btn">sehat</div>
+                                <ul tabindex="0"
+                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    <li><a href="#">environment</a></li>
+                                    <li><a href="#">health record</a></li>
+                                    <li><a href="#">nazafat</a></li>
+                                    <li><a href="#">sports</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="navbar-end lg:mx-2 Lg:pr-2 flex capitalize">
+                        <div
+                            class="dropdown dropdown-end">
+                            <div tabindex="0" role="button"
+                                class="btn btn-ghost btn-circle avatar">
+                                <div class="w-10 rounded-full">
+                                    <img alt="avatar"
+                                        src="https://camo.githubusercontent.com/a09826e3c20bbb772e71f52a449fdc9db3f58dff6ee2a0ab67ffdfd415f18760/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37632f50726f66696c655f6176617461725f706c616365686f6c6465725f6c617267652e706e67" />
+                                </div>
+                            </div>
+                            <ul tabindex="0"
+                                class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                <li><a>tools</a></li>
+                                <li><a>Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Page content here -->
+                Content
+            </div>
+            <div class="drawer-side">
+                <label for="sidebar" aria-label="close sidebar"
+                    class="drawer-overlay"></label>
+                <ul class="menu p-4 w-80 min-h-full bg-base-200">
+                    <!-- Sidebar content here -->
+                    <li><a>Sidebar Item 1</a></li>
+                    <li><a>Sidebar Item 2</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </body>
+</html>
