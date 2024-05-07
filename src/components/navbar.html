@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,8 @@
             <input id="sidebar" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
                 <!-- Navbar -->
-                <div class="w-full navbar bg-primary">
+                <div
+                    class="w-full navbar bg-primary text-primary-content text-sm">
                     <div class="flex-none lg:hidden">
                         <label for="sidebar" aria-label="open sidebar"
                             class="btn btn-square btn-ghost">
@@ -34,20 +35,388 @@
                                 <div tabindex="0" role="button"
                                     class="btn btn-ghost rounded-btn">deeniyah</div>
                                 <ul
-                                    class="dropdown-content menu p-2 shadow bg-primary rounded-box w-52 mt-4">
-                                    <li><a href="#">amal report</a></li>
-                                    <li><a href="#">jagah pass</a></li>
-                                    <li><a href="#">ohbat majlis</a></li>
-                                    <li><a href="#">darees</a></li>
-                                    <li><a href="#">raza</a></li>
-                                    <li><a href="#">sharaf</a></li>
+                                    class="dropdown-content menu menu-xs p-2 shadow bg-primary text-primary-content rounded-box w-60 mt-4 text-xs">
+                                    <li>
+                                        <details>
+                                            <summary>amal report</summary>
+                                            <ul>
+                                                <li><a href="#">details</a></li>
+                                                <li><a href="#">summary
+                                                        list</a></li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li>
+                                        <details>
+                                            <summary>jagah pass</summary>
+                                            <ul>
+                                                <li>
+                                                    <details>
+                                                        <summary>prepare</summary>
+                                                        <ul>
+                                                            <li><a
+                                                                    href="#">mumineen
+                                                                    master
+                                                                    entry</a></li>
+                                                            <li><a href="#">seat
+                                                                    master</a></li>
+                                                            <li><a
+                                                                    href="#">mumineen
+                                                                    seat type
+                                                                    editing</a></li>
+                                                            <li><a
+                                                                    href="#">ladies
+                                                                    master (age
+                                                                    wise)</a></li>
+                                                            <li><a href="#">seat
+                                                                    allotment
+                                                                    (manual)</a></li>
+                                                            <li><a
+                                                                    href="#">import
+                                                                    seat
+                                                                    master</a></li>
+                                                            <li><a
+                                                                    href="#">fetch
+                                                                    mumineen
+                                                                    data for
+                                                                    jagah</a></li>
+                                                            <li><a
+                                                                    href="#">import
+                                                                    for mumineen
+                                                                    seat type
+                                                                    assignment</a></li>
+                                                            <li><a
+                                                                    href="#">import
+                                                                    for mumineen
+                                                                    seat number
+                                                                    assignment</a></li>
+                                                            <li><a
+                                                                    href="#">mumineen
+                                                                    master
+                                                                    editing</a></li>
+                                                            <li><a
+                                                                    href="#">import
+                                                                    for sabeel
+                                                                    seat type
+                                                                    assign</a></li>
+                                                            <li><a
+                                                                    href="#">centre
+                                                                    registration
+                                                                    allot /
+                                                                    change</a></li>
+                                                            <li><a href="#">days
+                                                                    pass allot /
+                                                                    change</a></li>
+                                                            <li><a href="#">seat
+                                                                    allotment
+                                                                    (sabeel
+                                                                    wise)</a></li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary>reports</summary>
+                                                        <ul>
+                                                            <li><a
+                                                                    href="#">jagah
+                                                                    status</a></li>
+                                                            <li><a
+                                                                    href="#">jagah
+                                                                    alloted
+                                                                    list</a></li>
+                                                            <li><a
+                                                                    href="#">jagah
+                                                                    alloted but
+                                                                    pass not
+                                                                    print
+                                                                    yet</a></li>
+                                                            <li><a
+                                                                    href="#">jagah
+                                                                    to be
+                                                                    issue</a></li>
+                                                            <li><a href="#">pass
+                                                                    not issue
+                                                                    (NOC not
+                                                                    clear)</a></li>
+                                                            <li><a
+                                                                    href="#">registration
+                                                                    summary</a></li>
+                                                            <li><a href="#">seat
+                                                                    available
+                                                                    list</a></li>
+                                                            <li><a href="#">not
+                                                                    register HOF
+                                                                    list</a></li>
+                                                            <li><a
+                                                                    href="#">registered
+                                                                    / not
+                                                                    registered
+                                                                    list</a></li>
+                                                            <li><a
+                                                                    href="#">venue
+                                                                    and day wise
+                                                                    report</a></li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary>process</summary>
+                                                        <ul>
+                                                            <li><a
+                                                                    href="#">jagah
+                                                                    auto
+                                                                    allotment</a></li>
+                                                        </ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details>
+                                    </li>
+                                    <li><details>
+                                            <summary>ohbat majlis</summary>
+                                            <ul>
+                                                <li><a href="#">un-register /
+                                                        assign
+                                                        sadar-zakereen</a></li>
+                                                <li><a href="#">register entry /
+                                                        edit</a></li>
+                                                <li><a href="#">register
+                                                        details</a></li>
+                                            </ul>
+                                        </details></li>
+                                    <li><details>
+                                            <summary>darees</summary>
+                                            <ul>
+                                                <li><a href="#">darees
+                                                        dates</a></li>
+                                                <li><a
+                                                        href="#">invitation</a></li>
+                                                <li><a href="#">report</a></li>
+                                                <li><a href="#">report
+                                                        details</a></li>
+                                            </ul>
+                                        </details></li>
+                                    <li><details>
+                                            <summary>raza</summary>
+                                            <ul>
+                                                <li><a href="#">manage raza
+                                                        tanzeem</a></li>
+                                            </ul>
+                                        </details></li>
+                                    <li><details>
+                                            <summary>sharaf</summary>
+                                            <ul>
+                                                <li><a href="#">sharaf
+                                                        event</a></li>
+                                                <li><a href="#">set current
+                                                        sharaf event</a></li>
+                                                <li><a href="#">sharaf
+                                                        category</a></li>
+                                                <li><a href="#">day wise sharaf
+                                                        assign</a></li>
+                                                <li><a href="#">mumineen sharaf
+                                                        assign</a></li>
+                                                <li><a href="#">mumineen sharaf
+                                                        manage</a></li>
+                                                <li><a href="#">mumineen sharaf
+                                                        allotment</a></li>
+                                                <li><a href="#">alotted sharaf
+                                                        manage</a></li>
+                                                <li><a href="#">alotted list and
+                                                        information</a></li>
+                                            </ul>
+                                        </details></li>
                                     <li><a href="#">wafat update</a></li>
-                                    <li><a href="#">7 daim</a></li>
-                                    <li><a href="#">deeni shiaar</a></li>
-                                    <li><a href="#">mawaqeet deeniyah</a></li>
-                                    <li><a href="#">moharramaat</a></li>
-                                    <li><a href="#">rusumaat</a></li>
-                                    <li><a href="#">taiseer-un-nikah</a></li>
+                                    <li><details>
+                                            <summary>7 daim</summary>
+                                            <ul>
+                                                <li>
+                                                    <details>
+                                                        <summary>hajj /
+                                                            ziyarat</summary>
+                                                        <ul><li><a
+                                                                    href="#">All</a></li>
+                                                            <li><a
+                                                                    href="#">hajj</a></li>
+                                                            <li><a
+                                                                    href="#">karbala
+                                                                    ziyarat</a></li>
+                                                            <li><a href="#">STS
+                                                                    - SMB
+                                                                    ziyarat</a></li>
+                                                            <li><a
+                                                                    href="#">dakheli
+                                                                    sharaf</a></li></ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary>salat</summary>
+                                                        <ul><li><a
+                                                                    href="#">all</a></li>
+                                                            <li><a href="#">pray
+                                                                    5 waqat
+                                                                    namaz</a></li>
+                                                            <li><a href="#">on
+                                                                    time?</a></li>
+                                                            <li><a
+                                                                    href="#">imamat</a></li>
+                                                            <li><a
+                                                                    href="#">arkaan
+                                                                    and
+                                                                    doa</a></li></ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary>shehrulla</summary>
+                                                        <ul><li><a
+                                                                    href="#">all</a></li>
+                                                            <li><a
+                                                                    href="#">roza</a></li>
+                                                            <li><a
+                                                                    href="#">imamat
+                                                                    namaz</a></li>
+                                                            <li><a
+                                                                    href="#">sunnat
+                                                                    nafelat</a></li>
+                                                            <li><a
+                                                                    href="#">behori</a></li>
+                                                            <li><a
+                                                                    href="#">kaffarat</a></li></ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary>tahaarat</summary>
+                                                        <ul><li><a href="#">lota
+                                                                    /
+                                                                    chakri</a></li>
+                                                            <li><a
+                                                                    href="#">bichhat
+                                                                    /
+                                                                    parda</a></li>
+                                                            <li><a
+                                                                    href="#">number
+                                                                    of western
+                                                                    toilets</a></li>
+                                                            <li><a
+                                                                    href="#">number
+                                                                    of indian
+                                                                    toilets</a></li>
+                                                            <li><a
+                                                                    href="#">toilet
+                                                                    direction</a></li>
+                                                            <li><a
+                                                                    href="#">toilet
+                                                                    doas</a></li></ul>
+                                                    </details>
+                                                </li>
+                                                <li>
+                                                    <details>
+                                                        <summary>wajebaat</summary>
+                                                        <ul><li><a href="#">ada
+                                                                    kre
+                                                                    che?</a></li>
+                                                            <li><a
+                                                                    href="#">hazrat
+                                                                    aaliyah</a></li>
+                                                            <li><a href="#">in
+                                                                    mauze</a></li></ul>
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </details></li>
+                                    <li><details>
+                                            <summary>deeni shiar</summary>
+                                            <ul>
+                                                <li><a href="#">all</a></li>
+                                                <li><a href="#">dari</a></li>
+                                                <li><a href="#">topi</a></li>
+                                                <li><a href="#">rida</a></li>
+                                                <li><a href="#">ghar ma
+                                                        jodi</a></li>
+                                                <li><a href="#">saya in
+                                                        majlis</a></li>
+                                                <li><a href="#">topi in
+                                                        majlis</a></li>
+                                                <li><a href="#">rida in
+                                                        majlis</a></li>
+                                            </ul>
+                                        </details></li>
+                                    <li><details>
+                                            <summary>mawaqeet diniyah</summary>
+                                            <ul>
+                                                <li><a href="#">all</a></li>
+                                                <li><a href="#">ashara mubaraka
+                                                        attend with aqa maula
+                                                        T.U.S</a></li>
+                                                <li><a href="#">ashara mubaraka
+                                                        number of days attend
+                                                        with aqa maula
+                                                        T.U.S</a></li>
+                                                <li><a href="#">ashara mubaraka
+                                                        attend in own
+                                                        mauze</a></li>
+                                                <li><a href="#">majlis</a></li>
+                                                <li><a href="#">niyaaz</a></li>
+                                                <li><a href="#">qablal
+                                                        waqt</a></li>
+                                                <li><a href="#">saya</a></li>
+                                            </ul>
+                                        </details></li>
+                                    <li><details>
+                                            <summary>moharramat</summary>
+                                            <ul>
+                                                <li><a href="#">all</a></li>
+                                                <li><a href="#">loan</a></li>
+                                                <li><a href="#">shares and
+                                                        mutual funds</a></li>
+                                                <li><a
+                                                        href="#">insurance</a></li>
+                                                <li><a href="#">tobacco</a></li>
+                                                <li><a
+                                                        href="#">cigarette</a></li>
+                                                <li><a href="#">hukko</a></li>
+                                                <li><a href="#">sharab</a></li>
+                                                <li><a href="#">dance</a></li>
+                                            </ul>
+                                        </details></li>
+                                    <li><details>
+                                            <summary>rusumaat</summary>
+                                            <ul>
+                                                <li><a href="#">all</a></li>
+                                                <li><a href="#">name
+                                                        from</a></li>
+                                                <li><a href="#">aqiqa</a></li>
+                                                <li><a
+                                                        href="#">khatanat</a></li>
+                                                <li><a href="#">misaaq</a></li>
+                                                <li><a href="#">quran tilawat
+                                                        aadat</a></li>
+                                                <li><a href="#">madeh marasiyah
+                                                        qasida</a></li>
+                                                <li><a href="#">huzur-e-aala
+                                                        tasaweer</a></li>
+                                                <li><a href="#">tasaweer
+                                                        direction</a></li>
+                                                <li><a href="#">maghrib mashriq
+                                                        taaweez</a></li>
+                                            </ul>
+                                        </details></li>
+                                    <li><details>
+                                            <summary>ITNC</summary>
+                                            <ul>
+                                                <li><a href="#">all</a></li>
+                                                <li><a href="#">married</a></li>
+                                                <li><a href="#">non
+                                                        married</a></li>
+                                                <li><a href="#">registered with
+                                                        ITNC</a></li>
+                                            </ul>
+                                        </details></li>
                                 </ul>
                             </div>
                             <div class="dropdown">
@@ -55,19 +424,63 @@
                                     class="btn btn-ghost rounded-btn">marafiq
                                     burhaniyah</div>
                                 <ul
-                                    class="dropdown-content menu p-2 shadow bg-primary rounded-box w-52 mt-4">
-                                    <li><a href="#">amal report</a></li>
-                                    <li><a href="#">jagah pass</a></li>
-                                    <li><a href="#">ohbat majlis</a></li>
-                                    <li><a href="#">darees</a></li>
-                                    <li><a href="#">raza</a></li>
+                                    class="dropdown-content menu menu-xs p-2 shadow bg-primary text-primary-content rounded-box w-60 mt-4 text-xs">
+                                    <li>
+                                        <details>
+                                            <summary>muwasaat</summary>
+                                            <ul><li><a href="#">entry</a></li>
+                                                <li><a href="#">delete</a></li>
+                                                <li><a
+                                                        href="#">report</a></li></ul>
+                                        </details>
+                                    </li>
+                                    <li>
+                                        <details>
+                                            <summary>household</summary>
+                                            <ul><li><a href="#">all</a></li>
+                                                <li><a
+                                                        href="#">utensils</a></li>
+                                                <li><a href="#">curtain /
+                                                        bichhat</a></li>
+                                                <li><a href="#">proper
+                                                        lighting</a></li>
+                                                <li><a href="#">water
+                                                        purifier</a></li>
+                                                <li><a href="#">geyser</a></li>
+                                                <li><a href="#">fridge</a></li>
+                                                <li><a href="#">washing
+                                                        machine</a></li>
+                                                <li><a href="#">gas
+                                                        stove</a></li>
+                                                <li><a href="#">assistance
+                                                        required</a></li></ul>
+                                        </details>
+                                    </li>
+                                    <li>
+                                        <details>
+                                            <summary></summary>
+                                            <ul></ul>
+                                        </details>
+                                    </li>
+                                    <li>
+                                        <details>
+                                            <summary></summary>
+                                            <ul></ul>
+                                        </details>
+                                    </li>
+                                    <li>
+                                        <details>
+                                            <summary></summary>
+                                            <ul></ul>
+                                        </details>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="dropdown">
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">taalimiyah</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                     <li><a href="#">deeni taalim</a></li>
                                     <li><a href="#">dunyawi education</a></li>
                                     <li><a href="#">hifz-ul-quran</a></li>
@@ -78,7 +491,7 @@
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">dakheliyah</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                     <li><a href="#">messaging</a></li>
                                     <li><a href="#">survey report</a></li>
                                     <li><a href="#">attendance</a></li>
@@ -89,7 +502,7 @@
                                     class="btn btn-ghost rounded-btn">mawarid
                                     bashariyah</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                     <li><a href="#">group / communities</a></li>
                                     <li><a href="#">umoor mawarid
                                             bashariyah</a></li>
@@ -99,7 +512,7 @@
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">maaliyah</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                     <li><a href="#">accounts</a></li>
                                     <li><a href="#">sabeel</a></li>
                                     <li><a href="#">accounting</a></li>
@@ -109,14 +522,14 @@
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">kharejiyah</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                 </ul>
                             </div>
                             <div class="dropdown">
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">qaza</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                     <li><a href="#">umoor qaza</a></li>
                                 </ul>
                             </div>
@@ -124,7 +537,7 @@
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">FMB</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                     <li><a href="#">FMB master</a></li>
                                     <li><a href="#">menu</a></li>
                                     <li><a href="#">inventory</a></li>
@@ -134,7 +547,7 @@
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">iqtesadiyah</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                     <li><a href="#">qardan hasana</a></li>
                                 </ul>
                             </div>
@@ -142,14 +555,14 @@
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">amlaak</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                 </ul>
                             </div>
                             <div class="dropdown">
                                 <div tabindex="0"
                                     class="btn btn-ghost rounded-btn">sehat</div>
                                 <ul tabindex="0"
-                                    class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                    class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                     <li><a href="#">environment</a></li>
                                     <li><a href="#">health record</a></li>
                                     <li><a href="#">nazafat</a></li>
@@ -170,7 +583,7 @@
                                 </div>
                             </div>
                             <ul tabindex="0"
-                                class="dropdown-content menu bg-primary rounded-box p-2 shadow w-52 mt-4">
+                                class="dropdown-content menu bg-primary text-primary-content rounded-box p-2 shadow w-60 mt-4 text-xs">
                                 <li><a>tools</a></li>
                                 <li><a>Logout</a></li>
                             </ul>
@@ -183,11 +596,414 @@
             <div class="drawer-side">
                 <label for="sidebar" aria-label="close sidebar"
                     class="drawer-overlay"></label>
-                <ul class="menu p-4 w-80 min-h-full bg-base-200">
+                <div
+                    class="p-4 w-80 min-h-full bg-primary text-primary-content">
                     <!-- Sidebar content here -->
-                    <li><a>Sidebar Item 1</a></li>
-                    <li><a>Sidebar Item 2</a></li>
-                </ul>
+
+                    <div class="collapse collapse-arrow w-full">
+                        <input type="radio" name="ijt-drawer"
+                            id="ijt-drawer" checked>
+                        <div class="collapse-title">deeniyah</div>
+                        <div class="collapse-content w-full">
+                            <ul
+                                class="menu p-2 bg-primary text-primary-content w-full">
+                                <li>
+                                    <details>
+                                        <summary>amal report</summary>
+                                        <ul>
+                                            <li><a href="#">details</a></li>
+                                            <li><a href="#">summary
+                                                    list</a></li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>jagah pass</summary>
+                                        <ul>
+                                            <li>
+                                                <details>
+                                                    <summary>prepare</summary>
+                                                    <ul>
+                                                        <li><a
+                                                                href="#">mumineen
+                                                                master
+                                                                entry</a></li>
+                                                        <li><a href="#">seat
+                                                                master</a></li>
+                                                        <li><a
+                                                                href="#">mumineen
+                                                                seat type
+                                                                editing</a></li>
+                                                        <li><a
+                                                                href="#">ladies
+                                                                master (age
+                                                                wise)</a></li>
+                                                        <li><a href="#">seat
+                                                                allotment
+                                                                (manual)</a></li>
+                                                        <li><a
+                                                                href="#">import
+                                                                seat
+                                                                master</a></li>
+                                                        <li><a
+                                                                href="#">fetch
+                                                                mumineen
+                                                                data for
+                                                                jagah</a></li>
+                                                        <li><a
+                                                                href="#">import
+                                                                for mumineen
+                                                                seat type
+                                                                assignment</a></li>
+                                                        <li><a
+                                                                href="#">import
+                                                                for mumineen
+                                                                seat number
+                                                                assignment</a></li>
+                                                        <li><a
+                                                                href="#">mumineen
+                                                                master
+                                                                editing</a></li>
+                                                        <li><a
+                                                                href="#">import
+                                                                for sabeel
+                                                                seat type
+                                                                assign</a></li>
+                                                        <li><a
+                                                                href="#">centre
+                                                                registration
+                                                                allot /
+                                                                change</a></li>
+                                                        <li><a href="#">days
+                                                                pass allot /
+                                                                change</a></li>
+                                                        <li><a href="#">seat
+                                                                allotment
+                                                                (sabeel
+                                                                wise)</a></li>
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details>
+                                                    <summary>reports</summary>
+                                                    <ul>
+                                                        <li><a
+                                                                href="#">jagah
+                                                                status</a></li>
+                                                        <li><a
+                                                                href="#">jagah
+                                                                alloted
+                                                                list</a></li>
+                                                        <li><a
+                                                                href="#">jagah
+                                                                alloted but
+                                                                pass not
+                                                                print
+                                                                yet</a></li>
+                                                        <li><a
+                                                                href="#">jagah
+                                                                to be
+                                                                issue</a></li>
+                                                        <li><a href="#">pass
+                                                                not issue
+                                                                (NOC not
+                                                                clear)</a></li>
+                                                        <li><a
+                                                                href="#">registration
+                                                                summary</a></li>
+                                                        <li><a href="#">seat
+                                                                available
+                                                                list</a></li>
+                                                        <li><a href="#">not
+                                                                register HOF
+                                                                list</a></li>
+                                                        <li><a
+                                                                href="#">registered
+                                                                / not
+                                                                registered
+                                                                list</a></li>
+                                                        <li><a
+                                                                href="#">venue
+                                                                and day wise
+                                                                report</a></li>
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details>
+                                                    <summary>process</summary>
+                                                    <ul>
+                                                        <li><a
+                                                                href="#">jagah
+                                                                auto
+                                                                allotment</a></li>
+                                                    </ul>
+                                                </details>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li><details>
+                                        <summary>ohbat majlis</summary>
+                                        <ul>
+                                            <li><a href="#">un-register /
+                                                    assign
+                                                    sadar-zakereen</a></li>
+                                            <li><a href="#">register entry /
+                                                    edit</a></li>
+                                            <li><a href="#">register
+                                                    details</a></li>
+                                        </ul>
+                                    </details></li>
+                                <li><details>
+                                        <summary>darees</summary>
+                                        <ul>
+                                            <li><a href="#">darees
+                                                    dates</a></li>
+                                            <li><a
+                                                    href="#">invitation</a></li>
+                                            <li><a href="#">report</a></li>
+                                            <li><a href="#">report
+                                                    details</a></li>
+                                        </ul>
+                                    </details></li>
+                                <li><details>
+                                        <summary>raza</summary>
+                                        <ul>
+                                            <li><a href="#">manage raza
+                                                    tanzeem</a></li>
+                                        </ul>
+                                    </details></li>
+                                <li><details>
+                                        <summary>sharaf</summary>
+                                        <ul>
+                                            <li><a href="#">sharaf
+                                                    event</a></li>
+                                            <li><a href="#">set current
+                                                    sharaf event</a></li>
+                                            <li><a href="#">sharaf
+                                                    category</a></li>
+                                            <li><a href="#">day wise sharaf
+                                                    assign</a></li>
+                                            <li><a href="#">mumineen sharaf
+                                                    assign</a></li>
+                                            <li><a href="#">mumineen sharaf
+                                                    manage</a></li>
+                                            <li><a href="#">mumineen sharaf
+                                                    allotment</a></li>
+                                            <li><a href="#">alotted sharaf
+                                                    manage</a></li>
+                                            <li><a href="#">alotted list and
+                                                    information</a></li>
+                                        </ul>
+                                    </details></li>
+                                <li><a href="#">wafat update</a></li>
+                                <li><details>
+                                        <summary>7 daim</summary>
+                                        <ul>
+                                            <li>
+                                                <details>
+                                                    <summary>hajj /
+                                                        ziyarat</summary>
+                                                    <ul><li><a
+                                                                href="#">All</a></li>
+                                                        <li><a
+                                                                href="#">hajj</a></li>
+                                                        <li><a
+                                                                href="#">karbala
+                                                                ziyarat</a></li>
+                                                        <li><a href="#">STS
+                                                                - SMB
+                                                                ziyarat</a></li>
+                                                        <li><a
+                                                                href="#">dakheli
+                                                                sharaf</a></li></ul>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details>
+                                                    <summary>salat</summary>
+                                                    <ul><li><a
+                                                                href="#">all</a></li>
+                                                        <li><a href="#">pray
+                                                                5 waqat
+                                                                namaz</a></li>
+                                                        <li><a href="#">on
+                                                                time?</a></li>
+                                                        <li><a
+                                                                href="#">imamat</a></li>
+                                                        <li><a
+                                                                href="#">arkaan
+                                                                and
+                                                                doa</a></li></ul>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details>
+                                                    <summary>shehrulla</summary>
+                                                    <ul><li><a
+                                                                href="#">all</a></li>
+                                                        <li><a
+                                                                href="#">roza</a></li>
+                                                        <li><a
+                                                                href="#">imamat
+                                                                namaz</a></li>
+                                                        <li><a
+                                                                href="#">sunnat
+                                                                nafelat</a></li>
+                                                        <li><a
+                                                                href="#">behori</a></li>
+                                                        <li><a
+                                                                href="#">kaffarat</a></li></ul>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details>
+                                                    <summary>tahaarat</summary>
+                                                    <ul><li><a href="#">lota
+                                                                /
+                                                                chakri</a></li>
+                                                        <li><a
+                                                                href="#">bichhat
+                                                                /
+                                                                parda</a></li>
+                                                        <li><a
+                                                                href="#">number
+                                                                of western
+                                                                toilets</a></li>
+                                                        <li><a
+                                                                href="#">number
+                                                                of indian
+                                                                toilets</a></li>
+                                                        <li><a
+                                                                href="#">toilet
+                                                                direction</a></li>
+                                                        <li><a
+                                                                href="#">toilet
+                                                                doas</a></li></ul>
+                                                </details>
+                                            </li>
+                                            <li>
+                                                <details>
+                                                    <summary>wajebaat</summary>
+                                                    <ul><li><a href="#">ada
+                                                                kre
+                                                                che?</a></li>
+                                                        <li><a
+                                                                href="#">hazrat
+                                                                aaliyah</a></li>
+                                                        <li><a href="#">in
+                                                                mauze</a></li></ul>
+                                                </details>
+                                            </li>
+                                        </ul>
+                                    </details></li>
+                                <li><details>
+                                        <summary>deeni shiar</summary>
+                                        <ul>
+                                            <li><a href="#">all</a></li>
+                                            <li><a href="#">dari</a></li>
+                                            <li><a href="#">topi</a></li>
+                                            <li><a href="#">rida</a></li>
+                                            <li><a href="#">ghar ma
+                                                    jodi</a></li>
+                                            <li><a href="#">saya in
+                                                    majlis</a></li>
+                                            <li><a href="#">topi in
+                                                    majlis</a></li>
+                                            <li><a href="#">rida in
+                                                    majlis</a></li>
+                                        </ul>
+                                    </details></li>
+                                <li><details>
+                                        <summary>mawaqeet diniyah</summary>
+                                        <ul>
+                                            <li><a href="#">all</a></li>
+                                            <li><a href="#">ashara mubaraka
+                                                    attend with aqa maula
+                                                    T.U.S</a></li>
+                                            <li><a href="#">ashara mubaraka
+                                                    number of days attend
+                                                    with aqa maula
+                                                    T.U.S</a></li>
+                                            <li><a href="#">ashara mubaraka
+                                                    attend in own
+                                                    mauze</a></li>
+                                            <li><a href="#">majlis</a></li>
+                                            <li><a href="#">niyaaz</a></li>
+                                            <li><a href="#">qablal
+                                                    waqt</a></li>
+                                            <li><a href="#">saya</a></li>
+                                        </ul>
+                                    </details></li>
+                                <li><details>
+                                        <summary>moharramat</summary>
+                                        <ul>
+                                            <li><a href="#">all</a></li>
+                                            <li><a href="#">loan</a></li>
+                                            <li><a href="#">shares and
+                                                    mutual funds</a></li>
+                                            <li><a
+                                                    href="#">insurance</a></li>
+                                            <li><a href="#">tobacco</a></li>
+                                            <li><a
+                                                    href="#">cigarette</a></li>
+                                            <li><a href="#">hukko</a></li>
+                                            <li><a href="#">sharab</a></li>
+                                            <li><a href="#">dance</a></li>
+                                        </ul>
+                                    </details></li>
+                                <li><details>
+                                        <summary>rusumaat</summary>
+                                        <ul>
+                                            <li><a href="#">all</a></li>
+                                            <li><a href="#">name
+                                                    from</a></li>
+                                            <li><a href="#">aqiqa</a></li>
+                                            <li><a
+                                                    href="#">khatanat</a></li>
+                                            <li><a href="#">misaaq</a></li>
+                                            <li><a href="#">quran tilawat
+                                                    aadat</a></li>
+                                            <li><a href="#">madeh marasiyah
+                                                    qasida</a></li>
+                                            <li><a href="#">huzur-e-aala
+                                                    tasaweer</a></li>
+                                            <li><a href="#">tasaweer
+                                                    direction</a></li>
+                                            <li><a href="#">maghrib mashriq
+                                                    taaweez</a></li>
+                                        </ul>
+                                    </details></li>
+                                <li><details>
+                                        <summary>ITNC</summary>
+                                        <ul>
+                                            <li><a href="#">all</a></li>
+                                            <li><a href="#">married</a></li>
+                                            <li><a href="#">non
+                                                    married</a></li>
+                                            <li><a href="#">registered with
+                                                    ITNC</a></li>
+                                        </ul>
+                                    </details></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="collapse collapse-arrow"><input type="radio"
+                            name="ijt-drawer" id="ijt-drawer" />
+                        <div class="collapse-title">marafiq burhaniyah</div>
+                        <div class="collapse-content">
+                            <li>hello</li>
+                            <li>hello</li>
+                            <li>hello</li>
+                            <li>hello</li>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
         </div>
